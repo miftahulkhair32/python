@@ -1,5 +1,6 @@
 x = float(input("masukan suhu celcius : "))
-y = raw_input("masukan tujuan konversi : ")
+y = input("masukan tujuan konversi : ")
+# di ubah dari raw_input ke input karena sekarang banyak menggunakan python v3.5
 
 if(y=='f'):
 	z = (x * 9/5) + 32
